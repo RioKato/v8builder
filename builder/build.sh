@@ -29,7 +29,7 @@ if [ -n "$COMMIT" ]; then
   git -C v8 clean -ffd
   git -C depot_tools clean -ffd
 
-  GCLIENT_OPTS=-D --force --reset
+  GCLIENT_OPTS="-D --force --reset"
 fi
 
 
